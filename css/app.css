@@ -22,6 +22,7 @@
 .content--list {
   text-align: left;
   border-top: 1px solid #89d2ff;
+  background-color: #fff;
 }
 
 .content--list--item {
@@ -39,9 +40,13 @@
 }
 
 .header {
-  color: #89d2ff;
+  color: #42b1f5;
+}
+
+.footer {
+  background-color: #ccc;
 }
 
 body {
-  background-color: #ccc;
+  background-color: rgba(204,204,204, 0.2) !important;
 }
