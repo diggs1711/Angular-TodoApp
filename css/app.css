@@ -1,48 +1,50 @@
 .content {
-  text-align: center;
+    text-align: center;
 }
 
 .content--input {
-  padding: 5px;
+    padding: 5px;
 }
 
 .content--input--text {
-  width: 60%;
+    width: 60%;
 }
 
 .content--list--item--name__strike {
-  text-decoration: line-through;
-  color: #ccc;
+    text-decoration: line-through;
+    color: #ccc;
 }
 
 .content--list--item--tick__green {
-  color: #00c410;
+    color: #00c410;
 }
 
 .content--list {
-  text-align: left;
-  border-top: 1px solid #89d2ff;
-  background-color: #fff;
+    text-align: left;
+    border-top: 1px solid #89d2ff;
+    background-color: #fff;
+    min-height: 32px;
 }
 
 .content--list--item {
-  border-bottom: 1px solid #89d2ff;
+    border-bottom: 1px solid #89d2ff;
 }
 
 .content--list--item--btn {
-  border-right: 1px solid #ff4c4c;
-  display: inline-block;
-  padding: 6px;
+    border-right: 1px solid #ff4c4c;
+    display: inline-block;
+    padding: 6px;
 }
+
 .content--list--item--name {
-  display: inline-block;
-  padding: 6px;
+    display: inline-block;
+    padding: 6px;
 }
 
 .header {
-  color: #42b1f5;
+    color: #42b1f5;
 }
 
 body {
-  background-color: rgba(204,204,204, 0.2) !important;
+    background-color: rgba(204, 204, 204, 0.2) !important;
 }
