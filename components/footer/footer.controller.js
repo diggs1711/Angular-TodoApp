@@ -1,9 +1,13 @@
-;(function() {
+;
+(function() {
 
-      var footerController = function () {
+    var footerController = function($scope, listService) {
 
-      };
+        $scope.clear = function() {
+            listService.clearCompleteItems();
+        };
 
+    };
 
-      app.controller("FooterController", footerController);
+    app.controller("FooterController", ['$scope', 'listService', footerController]);
 })();

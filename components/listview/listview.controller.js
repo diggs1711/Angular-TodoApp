@@ -24,11 +24,7 @@
 
     $scope.$on('updateListView', function() {
       $scope.todos = listService.todos;
-    })
-
-    $scope.clear = function() {
-        listService.clearCompleteItems();
-    };
+    });
 
     $scope.init();
   };
