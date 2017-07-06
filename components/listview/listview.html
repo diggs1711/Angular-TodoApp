@@ -1,13 +1,17 @@
-<div class="content--list">
-    <div ng-repeat="todo in todos track by $index">
-        <div class="content--list--item">
-            <div class="content--list--item--btn">
-                <button ng-click="onComplete(todo.id)">Complete</button>
-            </div>
-            <div class="content--list--item--name" ng-class="{'content--list--item--name__strike' : todo.complete}">
-                <span>
+<div class="container">
+    <div class="content--list">
+        <div ng-repeat="todo in todos track by $index">
+            <div class="content--list--item">
+                <div class="content--list--item--btn">
+                  <span>
+                    <div class="glyphicon glyphicon-ok" ng-click="onComplete(todo.id)"  ng-class="{'content--list--item--tick__green' : todo.complete}"></div>
+                  </span>
+                </div>
+                <div class="content--list--item--name" ng-class="{'content--list--item--name__strike' : todo.complete}">
+                    <span>
           {{todo.name}}
         </span>
+                </div>
             </div>
         </div>
     </div>

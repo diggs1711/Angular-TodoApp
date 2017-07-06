@@ -12,24 +12,36 @@
 
 .content--list--item--name__strike {
   text-decoration: line-through;
-  color: grey;
+  color: #ccc;
+}
+
+.content--list--item--tick__green {
+  color: #00c410;
 }
 
 .content--list {
   text-align: left;
-  border-top: 1px solid blue;
+  border-top: 1px solid #89d2ff;
 }
 
 .content--list--item {
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #89d2ff;
 }
 
 .content--list--item--btn {
-  border-right: 1px solid red;
+  border-right: 1px solid #ff4c4c;
   display: inline-block;
   padding: 6px;
 }
 .content--list--item--name {
   display: inline-block;
   padding: 6px;
+}
+
+.header {
+  color: #89d2ff;
+}
+
+body {
+  background-color: #ccc;
 }

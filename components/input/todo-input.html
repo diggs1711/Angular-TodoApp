@@ -1,4 +1,10 @@
-<div class="content--input">
-    <input class="content--input--text" ng-model="name" placeholder="What needs to be done?" />
-    <button ng-click="onClickAdd()">add</button>
+<div class="content--input row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="input-group">
+            <input class="content--input--text form-control" ng-model="name" placeholder="What needs to be done?" />
+            <span class="input-group-btn">
+      <button ng-click="onClickAdd()" type="button" class="btn btn-default">Add</button>
+    </span>
+        </div>
+    </div>
 </div>
